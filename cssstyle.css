@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.grid-container
+{
+    /* height: 100vh;
+    border: 10px solid #db92db; */
+    display: grid;
+    grid-template-columns: 100px 150px ;
+    grid-template-rows: 200px 200px;
+    /* grid-row-gap: 20px; */
+    height: 100wh;
+    border: 10px solid #dbdbdb;
+    /* grid-column-gap: 10px;
+    grid-gap: 20px; */
+    justify-items: end;
+    align-content: space-around;
+}
+.grid-item
+{
+background-color: pink;
+border: 2px solid black;
+padding: 20px;
+
+}
